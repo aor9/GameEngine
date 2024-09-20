@@ -1,0 +1,10 @@
+# Binaries
+**/bin/
+bin-int/
+Intermediates/
+
+# Directories
+.vs/
+
+# Files
+.user
