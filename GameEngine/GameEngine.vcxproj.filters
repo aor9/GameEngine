@@ -20,6 +20,10 @@
       <Filter>Aor</Filter>
     </ClInclude>
     <ClInclude Include="src\Test.h" />
+    <ClInclude Include="src\Aor\Events\Event.h" />
+    <ClInclude Include="src\Aor\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Aor\Events\KeyEvent.h" />
+    <ClInclude Include="src\Aor\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Aor\Application.cpp">

@@ -1,5 +1,8 @@
 #include "Application.h"
 
+#include "Aor/Events/ApplicationEvent.h"
+#include "Aor/Log.h"
+
 namespace Aor {
 
 	Aor::Application::Application()
@@ -14,6 +17,12 @@ namespace Aor {
 
 	void Application::Run()
 	{
+		WindowResizeEvent e(1280, 720);
+		if (e.IsInCategory(EventCategoryApplication))
+		{
+			AOR_TRACE("{}", e.ToString());
+		}
+
 		while (true);
 	}
 
